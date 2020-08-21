@@ -1,0 +1,13 @@
+node_modules
+
+# webpack bundles
+dist
+
+# docz server and static files
+# .docz
+
+# The WebStorm IDE files
+.idea
+
+# VS Code workspace configurations
+.vscode
