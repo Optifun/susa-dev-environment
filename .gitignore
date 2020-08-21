@@ -4,7 +4,7 @@ node_modules
 dist
 
 # docz server and static files
-# .docz
+.docz
 
 # The WebStorm IDE files
 .idea
