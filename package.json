@@ -1,7 +1,7 @@
 {
   "name": "susa-dev-environment",
   "version": "1.0.0",
-  "main": "src/index.jsx",
+  "main": "src/components/index.jsx",
   "repository": "https://github.com/Optifun/susa-dev-environment.git",
   "author": "Dmitry Frolov <frdima19@gmail.com>",
   "license": "none",
