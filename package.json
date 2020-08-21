@@ -1,0 +1,48 @@
+{
+  "name": "susa-dev-environment",
+  "version": "1.0.0",
+  "main": "src/index.jsx",
+  "repository": "https://github.com/Optifun/susa-dev-environment.git",
+  "author": "Dmitry Frolov <frdima19@gmail.com>",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "keywords": [
+    "react",
+    "react-components",
+    "sass"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@bem-react/classname": "^1.5.8",
+    "docz": "^2.3.1",
+    "gatsby-plugin-sass": "^2.3.12",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.1",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
